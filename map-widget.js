@@ -51,7 +51,7 @@
 // });
 
 document.addEventListener("DOMContentLoaded", function () {
-  const scriptTag = document.getElementById("uf-social-script");
+  const scriptTag = document.getElementById("uf-map-script");
   if (!scriptTag) return;
 
   const lat = parseFloat(scriptTag.getAttribute("data-lat")) || 0;
