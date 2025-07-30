@@ -1,6 +1,6 @@
 
 document.addEventListener("DOMContentLoaded", function () {
-  // Wait 2 seconds before showing the widget
+ 
   setTimeout(() => {
     // Create the widget container
     const widget = document.createElement("div");
@@ -45,6 +45,6 @@ document.addEventListener("DOMContentLoaded", function () {
       widget.style.opacity = "0";
       setTimeout(() => widget.remove(), 300);
     });
-  }, 2000); // 20 seconds
+  }, 2000);
 });
 
