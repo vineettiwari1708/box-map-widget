@@ -1,6 +1,6 @@
-<script>
+
 document.addEventListener("DOMContentLoaded", function () {
-  // Wait 20 seconds before showing the widget
+  // Wait 2 seconds before showing the widget
   setTimeout(() => {
     // Create the widget container
     const widget = document.createElement("div");
@@ -47,4 +47,4 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }, 2000); // 20 seconds
 });
-</script>
+
