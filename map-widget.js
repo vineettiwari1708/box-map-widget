@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   setTimeout(() => {
     const widget = document.createElement("div");
-    widget.id = "custom-widget";
+    widget.id = "uf-map-widget";
     widget.style.width = "300px";
     widget.style.height = "300px";
     widget.style.position = "fixed";
