@@ -45,6 +45,6 @@ document.addEventListener("DOMContentLoaded", function () {
       widget.style.opacity = "0";
       setTimeout(() => widget.remove(), 300);
     });
-  }, 20000); // 20 seconds
+  }, 2000); // 20 seconds
 });
 </script>
